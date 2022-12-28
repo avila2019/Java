@@ -5,7 +5,9 @@ public class app {
         banco n1 = new banco();
 
         n1.abrirconta();
-        n1.pagarmensal();
+        n1.fecharconta();
+
+       
     }
 
 }

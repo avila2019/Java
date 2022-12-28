@@ -63,10 +63,12 @@ public class banco {
     }
 
     public void fecharconta() {
-        if (this.saldo == 0) {
+        if (this.saldo ==0) {
             System.out.println("Conta fechada com Sucesso  ");
-        } else {
+        } else if(this.saldo >0 ){
             System.out.println("Existe " + this.saldo + " Em sua conta que deve ser sacado Para poder fechar a Conta ");
+        }else if(this.saldo <0){
+            System.out.println("Existe " + this.saldo + " Negativo na sua conta , realize o  ajuste ");
         }
 
     }
