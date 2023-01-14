@@ -6,6 +6,7 @@ public class app {
 
         n1.abrirconta();
         n1.sacar();
+        n1.set
 
        
     }
