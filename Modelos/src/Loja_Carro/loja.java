@@ -82,10 +82,12 @@ public class loja extends Carro {
        
         System.out.println("Informe a placa a ser Pesquisada ");
         p.setPlaca(inputnext);
+        for (int i = 0; i < carrosCadastrados.size(); i++) {
+             if(carrosCadastrados.get(i).getPlaca().equals(placa))
 
 
         
 
-    }
+    }}
 
 }
