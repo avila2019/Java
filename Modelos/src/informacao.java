@@ -1,7 +1,3 @@
-public class informacao {
-    
-}
-
 // array list 
 
 // list.add("DADO") - Para adicionar dados no arraylist
