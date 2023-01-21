@@ -5,7 +5,7 @@ public class App {
         loja n1= new loja();
 
         n1.cadastrarCarro();
-        n1.listagem();
+        n1.pesquisar();
 
         
     }

@@ -64,12 +64,13 @@ public class loja extends Carro {
         carrosCadastrados.add(c);
 
     }
-    public void listagem(){
-        for (int i=0; i < carrosCadastrados.size(); i++){
-            
-            if (carrosCadastrados.size() > 0){
-                System.out.println(carrosCadastrados);
-            }else{
+
+    public void listagem() {
+        for (int i = 0; i < carrosCadastrados.size(); i++) {
+
+            if (carrosCadastrados.size() > 0) {
+                System.out.println(carrosCadastrados.size());
+            } else {
                 System.out.println("Não existe informações ");
             }
 
@@ -77,17 +78,12 @@ public class loja extends Carro {
     }
 
     public void pesquisar() {
-        String pesquisa;
+        pessoa p = new pessoa();
+       
         System.out.println("Informe a placa a ser Pesquisada ");
-        pesquisa=sc.next();
-        
-        if(carrosCadastrados.indexOf("pesquisa"){
-            System.out.println("Placa Pesquisada está na lista "+pesquisa);
+        p.setPlaca(inputnext);
 
-        }else {
-            System.out.println("Placa não está cadastrada ");
-        }
-        
+
         
 
     }
