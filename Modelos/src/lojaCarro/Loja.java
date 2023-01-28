@@ -122,7 +122,7 @@ public class Loja extends Carro {
 			  System.out.println("*======= PESQUISAR CARRO =======*");
 		      System.out.println("Digite a placa do carro que deseja procurar: ");
 			  String placa = sc.next();
-			  System.out.println("*========== CARRO RECUPERADO ===========*");
+			  System.out.println("*========== CARRO ENCONTRADO ===========*");
 			for (int i = 0; i < carrosCadastrados.size(); i++) {
 				if (carrosCadastrados.get(i).getPlaca().equals(placa)) {
 					System.out.println("Marca: "+ carrosCadastrados.get(i).getMarca());
