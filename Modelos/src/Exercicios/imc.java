@@ -10,7 +10,7 @@ public class imc {
 		double peso,altura,retorno=0;
 		String sexo = null;
 	
-		for (int i=0;  i<3; i++) {
+		for (int i=0;  i<1; i++) {
 		
 		System.out.print("Informe o seu sexo: ");
 		sexo=sc.next();
@@ -23,35 +23,33 @@ public class imc {
 		if (sexo =="F" && retorno <19.1) {
 			System.out.println("Mulher está abaixo do Peso ");
 		}
-		else if(sexo=="M" && retorno< 20.7) {
+		else if(sexo.equalsIgnoreCase("M") && retorno< 20.7) {
 			System.out.println("Homem está abaixo do Peso ");
 		}
-		else if(sexo== "F" && retorno>19.1 && retorno<25.8) {
+		else if(sexo.equalsIgnoreCase("F") && retorno>19.1 && retorno<25.8) {
 			System.out.println("Mulher no Peso Normal ");
 		}
-		else if (sexo== "M" && retorno>20.7 && retorno<26.4) {
+		else if (sexo.equalsIgnoreCase("M")&& retorno>20.7 && retorno<26.4) {
 			System.out.println("Homem no Peso Normal ");
 		}
-		else if (sexo== "F" && retorno>25.8 && retorno<27.3) {
+		else if (sexo.equalsIgnoreCase("F")&& retorno>25.8 && retorno<27.3) {
 			System.out.println("Mulher marginalmente acima do peso");
 		}
-		else if (sexo== "M" && retorno>26.4 && retorno<27.8) {
+		else if (sexo.equalsIgnoreCase("M")&& retorno>26.4 && retorno<27.8) {
 			System.out.println("Homem marginalmente acima do peso");
 		}
-		else if(sexo== "F" && retorno>27.3 && retorno<32.3) {
+		else if(sexo.equalsIgnoreCase("F")&& retorno>27.3 && retorno<32.3) {
 			System.out.println("Mulher  acima do peso ideal");
 		}
-		else if(sexo== "M" && retorno>27.8 && retorno<31.3) {
+		else if(sexo.equalsIgnoreCase("M")&& retorno>27.8 && retorno<31.3) {
 			System.out.println("Homem  acima do peso ideal");
 		}
-		else if(sexo== "F" && retorno>32.3) {
+		else if(sexo.equalsIgnoreCase("F")&& retorno>32.3) {
 			System.out.println("Mulher Obesa ");
 		}
-		else if(sexo== "M" && retorno>31.1) {
+		else if(sexo.equalsIgnoreCase("M") && retorno>31.1) {
 			System.out.println("Homem Obeso ");
-		}
-
-    
+		}   
 }
     }
 }
