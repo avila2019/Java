@@ -1,4 +1,4 @@
-package Alura;
+package Alura.Modulo1;
 import java.util.*;
 
 public class Soma_1_a_18 {

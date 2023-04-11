@@ -1,4 +1,4 @@
-package Alura;
+package Alura.Modulo1;
 import java.util.*;
 
 public class Media_valor {
