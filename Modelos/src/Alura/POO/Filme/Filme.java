@@ -1,29 +1,26 @@
 package Alura.POO.Filme;
-import java.util.*;
 
 public class Filme {
-    
     String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
-    double somaAvaliacao;
+    Double anoDeLancamento;
+    Double duracaoEmMinutos;
+    String incluidoNoPlano;
+    Double somaDasAvaliacoes;
     int totalDeAvaliacoes;
-    int duracaoEmMinutos;
 
+    
     void exibeFichaTecnica(){
-        System.out.println("Nome informado: "+nome);
-        System.out.println("Soma avaliação: "+somaAvaliacao);
-       
+        System.out.println("Nome Informado "+nome);
+        System.out.println("Soma informada "+somaDasAvaliacoes);
+        System.out.println("Quantidade de Avaliação "+totalDeAvaliacoes);
     }
-    void avalia(double nota){
-        somaAvaliacao+=nota;
+
+    void avalia(double soma){
+        somaDasAvaliacoes+=soma;
         totalDeAvaliacoes++;
     }
-    double pegaMedia(){
-        return somaAvaliacao/totalDeAvaliacoes;
-        
+    Double pegaMedia(){
+        return somaDasAvaliacoes/totalDeAvaliacoes;
     }
-
-
-
+    
 }
