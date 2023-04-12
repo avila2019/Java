@@ -2,21 +2,22 @@ package Alura.POO.Filme;
 
 public class app {
     public static void main(String[] args) {
-      Filme n1= new Filme();
 
-      n1.nome="arthur";
-      n1.avalia(38);
-      n1.avalia(33);
-      
+        Serie seria = new Serie();
 
-      n1.exibeFichaTecnica();
-      System.out.println(n1.pegaMedia());
+        seria.setNome("Arthur");
+        seria.setAnoDeLancamento(2000);
+        seria.exibeFichaTecnica();
+        seria.setTemporadas(10);
+        seria.setEpisodiosPorTemporada(10);
 
-  
 
-      
+
+
 
         
     }
+
+   
     
 }
